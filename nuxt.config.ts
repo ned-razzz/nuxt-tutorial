@@ -12,5 +12,5 @@ export default defineNuxtConfig({
   },
 
   typescript: { typeCheck: true },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@nuxt/eslint", "@pinia/nuxt"],
 });
